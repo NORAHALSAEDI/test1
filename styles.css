@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  font-size: 15px;
+}
+
+h1 {
+  margin: 0;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(230, 223, 223, 0.216);
+  padding: 15px;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+li {
+  color: rgb(0, 3, 2);
+  margin-left: 20px;
+}
+
+.container {
+  border-style: solid;
+  width: 725px;
+  margin: 50px auto;
+  position: relative;
+}
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.but-add {
+  background-color: black;
+  color: white;
+  width: 100%;
+  height: 50px;
+  font-size: 30px;
+  font-family: "Times New Roman", Times, serif;
+  margin-top: -74px;
+}
+.but-add:hover {
+  color: #000;
+  background-color: aliceblue;
+}
+button {
+  width: 20px;
+  height: 20px;
+  border: none;
+  margin-left: 0;
+  margin-right: 2px;
+}
+.but-sale {
+  position: absolute;
+  top: -15px;
+  left: -20px;
+  /* here we use this property to allow the element takes fit space  */
+  display: inline-block;
+  padding: 7px 15px;
+  background-color: #cd1b1b;
+  color: white;
+  text-transform: uppercase;
+  font-size: 10px;
+}
+
+/* PRODUCTS CONTENAR   */
+
+.more-info:link {
+  color: black;
+  display: inline-block;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.more-info:hover,
+.more-info:active {
+  text-decoration: none;
+}
+ul li {
+  margin-top: 10px;
+}
+li :last-child {
+  margin-bottom: 0;
+}
+h2,
+h4 {
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+.product-details {
+  margin-top: 20px;
+  margin-left: 0;
+}
+
+#black {
+  background-color: #000;
+}
+#red {
+  background-color: #cd1b1b;
+}
+#blue {
+  background-color: #2b31d2;
+}
+#yellow {
+  background-color: #eae612;
+}
+#green {
+  background-color: #73c43d;
+}
+#brown {
+  background-color: #503434;
+}
+.product-img {
+  float: left;
+  margin-right: 40px;
+}
+
+/* PRODUCT DETATLES  */
+.product-details {
+}
+.product-info {
+  width: 243px;
+  float: left;
+  margin-right: 40px;
+  margin-top: 20px;
+}
+.price {
+  float: left;
+}
+
+.free-shpping {
+  float: right;
+  margin-bottom: 20px;
+  font-size: 10px;
+  margin-top: 8px;
+}
+.product-description {
+  clear: both;
+  margin-bottom: 10px;
+}
